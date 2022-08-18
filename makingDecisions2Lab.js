@@ -21,31 +21,41 @@ var arr = [10,20,30,40,50,60]
 
 ////////// PROBLEM 3 //////////
 
-// Do not edit the code below.
-var family = ['Tyler', 'Jordan', 'Ryan', 'Alice', 'Ireland'];
-// Do not edit the code above.
+// // Do not edit the code below.
+// var family = ['Tyler', 'Jordan', 'Ryan', 'Alice', 'Ireland'];
+// // Do not edit the code above.
 
-/*
-  Loop through the 'family' array and console.log every item.
-*/
+// /*
+//   Loop through the 'family' array and console.log every item.
+// */
 
-for(i = 0; i < family.length; i++){
-  console.log(family[i])
-}
+// // for(i = 0; i < family.length; i++){
+// //   console.log(family[i])
+// // }
 
 
-////////// PROBLEM 4 //////////
+// ////////// PROBLEM 4 //////////
 
-// Do not edit the code below.
-var nums = [1,2,3,6,22,98,45,23,22,12];
-let evensArr = []
-// Do not edit the code above.
+// // Do not edit the code below.
+// var nums = [1,2,3,6,22,98,45,23,22,12];
+// let evensArr = []
+// // Do not edit the code above.
 
-/*
-  Use a for-loop to iterate through each number in the 'nums' array, if the number is even, append it to the 'evensArr'.
-*/
+// /*
+//   Use a for-loop to iterate through each number in the 'nums' array, if the number is even, append it to the 'evensArr'.
+// */
 
-//Code Here
+// for(i = 0; i < nums.length; i++){
+//   if(nums[i] % 2 === 0){
+//     evensArr.push(nums[i])
+//     console.log('yep')
+//   }
+//   else {
+//     console.log("Nothing is happening")
+//   }
+// }
+// console.log(evensArr)
+// console.log(nums)
 
 
 
@@ -59,9 +69,21 @@ var score = 74
   Determine if the letter grade of the given variable 'score'. If the variable is a 90 or above, console log an 'A', between 80 and 89, console log a 'B', between 70 and 79, 'C', between 60 and 69, 'D', and anything below 60 should console log an 'F'.
 */
 
-//Code Here
-
-
+// if(score >= 90){
+//   console.log('A')
+// }
+// else if(score >= 80 && score <= 89){
+//   console.log('B')
+// }
+// else if(score >=70 && score <= 79){
+//   console.log("c")
+// }
+// else if(score >=60 && score <= 69){
+//   console.log("d")
+// }
+// else{
+//   console.log('f')
+// }
 ////////// Intermediate Problems //////////
 
 ////////// PROBLEM 6 //////////
@@ -74,8 +96,8 @@ var myFavoriteNumbers = [4,8,12,16,20,24];
   Create a variable named 'someNum' and set it equal to the fifth value of the 'myFavoriteNumbers' array.
 */
 
-//Code Here
-
+let someNum = myFavoriteNumbers[4]
+console.log(someNum)
 
 ////////// PROBLEM 7 //////////
 
